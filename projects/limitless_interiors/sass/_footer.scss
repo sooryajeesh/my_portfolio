@@ -1,0 +1,45 @@
+footer{
+  background-color:#313131;
+  color: #919799;
+  .footer-logo-img{
+    padding-top:98px;
+  }
+  h2{
+    color: antiquewhite;
+  }
+  ul{
+    padding-left:0px;
+  }
+  li{
+    display: block;
+    padding: 7px;
+  }
+  a{
+    color:#919799;
+  }
+  .contact_box{
+    text-align: left;
+    line-height:2;
+    word-spacing: 2px;
+
+
+    .social_block{
+      padding-top:10px;
+      li{
+        display: inline-block;
+        padding: 4px;
+        a{
+          img{
+            &:hover{
+              border-radius: 20px;
+            }
+          }
+        }
+
+      }
+
+
+    }
+  }
+}
+

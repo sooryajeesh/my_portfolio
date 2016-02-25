@@ -1,0 +1,266 @@
+.navbar-default {
+    background-color: seagreen;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    text-decoration: white;
+}
+
+.navbar-default {
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.background_part {
+    background-image: url(../images/f2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-origin: padding-box;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner_div {
+    border: 1px solid transparent;
+    height: auto;
+    width: auto;
+    opacity: .7;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.inner_div:hover {
+    opacity: .5;
+}
+
+#h3_cafe {
+    font-family: "Comic Sans MS";
+    color: wheat;
+}
+.h3_heading{
+    line-height: 43px;
+}
+
+#btn {
+    width: 100px;
+    background-color: red;
+    border: none;
+    color: black;
+}
+.special_items{
+    height:auto;
+    margin: 0;
+    background-color: seagreen;
+}
+
+.items1 {
+
+    height: auto;
+    text-align: center;
+    background-color: chocolate;
+
+
+}
+
+.items2 {
+
+    height: auto;
+    text-align: center;
+    background-color: peachpuff;
+
+}
+
+.items3 {
+
+    height: auto;
+    text-align: center;
+    background-color: greenyellow;
+
+
+}
+#view_btn1{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    border:none;
+    margin-bottom:10px;
+}
+#view_btn2{
+    background-color: #1b6d85;
+    color:white;
+    cursor: pointer;
+    width: 100px;
+    border:none;
+    margin-bottom:10px;
+}
+
+#view_btn3{
+    background-color: saddlebrown;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border:none;
+    margin-bottom:10px;
+}
+
+.menu{
+    background-color: seagreen;
+    border:1px solid transparent;
+    height: auto;
+}
+.menu_items{
+    background-color: cornsilk;
+    border:1px solid transparent;
+    display: inline-block;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.img_news{
+    width: 150px;
+    height: 150px;
+}
+.img_testimonial{
+    width: 150px;
+    border-radius:114px;
+    height: 150px;
+
+}
+.occupation{
+    font-weight: bold;
+    color: #1b6d85;
+    display: flex;
+    justify-content: space-around;
+
+}
+.name_h4{
+    display: flex;
+    justify-content: space-around;
+}
+#news_letters{
+    color:orange;
+}
+#newsletter_p:hover{
+    background-color: #1b6d85;
+}
+.footer{
+    border:1px solid transparent;
+    background-color: darkslategrey
+
+}
+.footer_items{
+    border:1px solid transparent;
+    height:auto;
+    color:white;
+
+
+}
+#footer_ul{
+    padding-left:0px;
+}
+
+#footer_ul .footer_li{
+    display: block;
+    text-align: left;
+    
+
+}
+#footer_ul .footer_li  a{
+    color:white;
+    font-size:15px;
+    text-decoration: none;
+    text-align: left;
+
+}
+#footer_ul .footer_li  a:hover{
+    margin-left:20px;
+    text-decoration: none;
+    color:darkorange;
+    font-weight:bold;
+}
+
+#input_subscription{
+    width: 500px;
+    background-color: #1c1c1c;
+    height: 40px;
+    border:none;
+    color:orange;
+}
+#btn_subscription{
+    width: 100px;
+    border:none;
+    height: 40px;
+    background-color: darkorange;
+    color:black;
+
+}
+#btn_subscription:hover{
+    opacity:.7;
+    color:white;
+}
+.facebook_box{
+    border:1px solid transparent;
+    width:80px;
+    height: 80px;
+    border-radius: 63px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.facebook_box:hover{
+    background-color:cornflowerblue;
+
+}
+.facebook_box{
+    display: inline-block;
+    padding: 20px;
+}
+
+.fa-facebook{
+    font-size:40px;
+    color: #1d5987;
+
+}
+.fa-envelope{
+    font-size:40px;
+    color: red;
+}
+
+
+
+.copy-right{
+    background-color: seagreen;
+    height: 50px;
+    text-align: center;
+    
+
+}
+.copy-right span{
+    color:darkgray;
+    line-height:50px;
+}
+.sticker{
+    width: 300px;
+    height:auto;
+    border:1px solid red;
+    background-color: coral;
+}
+

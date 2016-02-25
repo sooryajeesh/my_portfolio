@@ -1,0 +1,64 @@
+.box_wrapper {
+  border: 1px solid transparent;
+  display: table;
+  width: 100%;
+
+  .left {
+    background-image: url(../images/int13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .box_image, .box_content {
+    display: table-cell;
+    width: 50%;
+  }
+ .box_wrapper > div:first-child > div {
+   padding-left:0;
+   float: right;
+ }
+  .box_image > div, .box_content > div {
+    padding: 100px 60px;
+    width: 585px;
+  }
+
+  .right {
+
+    background-color: #313131;
+    color: #c6c6c6;
+
+    h2 {
+      color: white;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 40px;
+    }
+    ul {
+      padding-left: 0px;
+      .doc_li {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        text-align: left;
+        display: block;
+        padding-left:40px;
+
+      }
+    }
+    .see_more_tag {
+      font-size: 20px;
+      border-top: 2px solid grey;
+      width:300px;
+      border-bottom: 2px solid grey;
+      color: white;
+      margin: 42px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+    }
+
+  }
+
+}

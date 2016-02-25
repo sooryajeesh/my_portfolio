@@ -1,0 +1,68 @@
+.box_wrapper2 {
+  border: 1px solid transparent;
+  display: table;
+  width:100%;
+
+
+        .right {
+          background-image: url(../images/int5.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+        .box_image, .box_content{
+          display: table-cell;
+          width:50%;
+          
+        }
+  .box_wrapper2 > div:first-child > div {
+    padding-left:0;
+    float: right;
+  }
+  .box_image > div, .box_content > div {
+    padding: 100px 60px;
+    width: 585px;
+  }
+
+
+  .left {
+        background-color: #bb3b3b;
+        color: #c6c6c6;
+        text-align: right;
+
+
+        h2 {
+          color: white;
+          font-size: 20px;
+          text-align: right;
+
+        }
+        ul {
+          padding-left: 0px;
+          text-align: right;
+          .doc_li {
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            text-align: right;
+            display: block;
+
+          }
+        }
+        .see_more_tag {
+          font-size: 20px;
+          border-top: 2px solid grey;
+          border-bottom: 2px solid grey;
+          color: white;
+          width:300px;
+
+
+          &:hover {
+            text-decoration: none;
+          }
+
+        }
+
+      }
+
+}

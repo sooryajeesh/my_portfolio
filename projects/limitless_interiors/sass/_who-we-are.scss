@@ -1,0 +1,26 @@
+.who_we_are{
+  text-align: center;
+  margin-bottom:40px;
+
+  p{
+    line-height:2;
+    text-align: center;
+
+  }
+  .see_more_tag{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+
+    height:auto;
+    font-size:20px;
+    
+    color:black;
+    &:hover{
+    text-decoration: none;
+      border-top:2px solid red;
+      border-bottom:2px solid red;
+  }
+  }
+}
+
+

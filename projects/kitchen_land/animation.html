@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation_jquery</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body>
+<button id="clickme">
+    Click here
+</button>
+<img id="book" src="images/coffe.jpg" alt="" width="250" height="250"
+     style="position: relative; left: 10px;">
+<script>
+$(document).ready(function(){
+    $("#clickme").click(function(){
+        $("#book").animate({
+            opacity:.25,
+            left:"+=50",
+            height: [ "toggle", "swing" ],
+            marginLeft:"120px",
+        },5000)
+    })
+})
+</script>
+</body>
+</html>
+
+</div>
+</div>
+<div class="container-fluid">
+
+
+    <div class="row second_box">

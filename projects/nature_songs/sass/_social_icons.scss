@@ -1,0 +1,45 @@
+.last{
+  padding-left:0px;
+  padding-right:0px;
+  background-color: black;
+  height:auto;
+
+  #copy_right_span{
+    line-height:6;
+    text-align: center;
+  }
+
+  .social_icons{
+    height:auto;
+    border:none;
+
+
+    ul{
+      padding: 0px;
+      margin-bottom:0px;
+      line-height:5;
+
+      li{
+        display: inline-block;
+        padding:10px;
+
+        a{
+          color: darkslategrey;
+
+          .fa{
+            font-size:30px;
+
+            &:hover{
+              opacity: .7;
+            }
+
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+

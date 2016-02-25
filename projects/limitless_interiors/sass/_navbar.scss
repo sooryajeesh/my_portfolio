@@ -1,0 +1,44 @@
+.sub-container1{
+  padding-left:0;
+  padding-right:0;
+}
+.navbar-wrapper{
+  width:100%;
+  height: auto;
+  background-color: black;
+  display: table;
+  height:auto;
+
+}
+.logo_image{
+  height:35px;
+}
+.navbar-inverse{
+  margin-bottom:0px;
+}
+.navbar-collapse{
+  background-color: black;
+  border-right:none;
+  border-left:none;
+}
+.sub-container2{
+  padding-left:0;
+  padding-right:0;
+}
+.navbar-nav{
+  li{
+    a{
+      line-height:47px;
+    }
+  }
+}
+.navbar-toggle{
+  background-color: transparent;
+  border:none;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: red;
+}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus{
+  background:none;
+}

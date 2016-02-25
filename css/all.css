@@ -1,0 +1,277 @@
+body{
+    background: rgba(0, 0, 0, 0) url("../images/texture.jpg") repeat scroll 0 0;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.4) inset;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.section {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.5s ease-in-out 0s;
+    width: 980px;
+}
+#menu {
+    background: transparent url("../images/linebgk.png") no-repeat scroll 50% 0;
+    min-height: 650px;
+    position: absolute;
+    width: 100%;
+}
+.about {
+    left: 75px;
+    position: absolute;
+    top: 400px;
+}
+.gallery {
+    left: 85px;
+    position: absolute;
+    top: 90px;
+}
+.projects {
+    left: 740px;
+    position: absolute;
+    top: 170px;
+}
+.hobbies {
+    left: 330px;
+    position: absolute;
+    top: 373px;
+}
+.native {
+    left: 618px;
+    position: absolute;
+    top: 463px;
+}
+.contactus {
+    left: 770px;
+    position: absolute;
+    top: 345px;
+}
+.about a {
+    background: rgba(0, 0, 0, 0) url("../images/icon-about.png") no-repeat scroll 0 0;
+}
+.menu_section  a {
+    background-position: 50% 50% !important;
+    display: block;
+    height: 165px;
+    text-indent: -9999px;
+    width: 200px;
+}
+.about a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/text-about.png") no-repeat scroll 0 0;
+}
+.gallery a{
+    background: rgba(0, 0, 0, 0) url("../images/camera.png") no-repeat scroll 0 0;
+}
+.gallery a:hover{
+    background: rgba(0, 0, 0, 0) url("../images/text-gallery.png") no-repeat scroll 0 0;
+}
+.projects a {
+    background: rgba(0, 0, 0, 0) url("../images/icon-projects.png") no-repeat scroll 0 0;
+}
+.projects a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/text-projects.png") no-repeat scroll 0 0;
+}
+.contactus a {
+    background: rgba(0, 0, 0, 0) url("../images/icon-find.png") no-repeat scroll 0 0;
+}
+.contactus a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/text-findme.png") no-repeat scroll 0 0;
+}
+.native a {
+    background: rgba(0, 0, 0, 0) url("../images/icon-services.png") no-repeat scroll 0 0;
+}
+.native a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/text-native.png") no-repeat scroll 0 0;
+}
+.hobbies a{
+    background: rgba(0, 0, 0, 0) url("../images/icon-news.png") no-repeat scroll 0 0;
+}
+.hobbies a:hover{
+    background: rgba(0, 0, 0, 0) url("../images/text-hobbies.png") no-repeat scroll 0 0;;
+}
+#h4_heading{
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    position: relative;
+    text-shadow: black;
+    font-family:"Comic Sans MS";
+    top: 128px;
+    left:36px;
+}
+#photo_ul{
+    border:1px solid green;
+    height:auto;
+    text-align: center;
+    padding-left:0;
+}
+#photo_ul li{
+    display: inline-block;
+    padding: 5px;
+}
+#photo_ul li img{
+    width: 193px;
+    height:221px;
+}
+#photo_ul li img:hover{
+    opacity: .7;
+    background-color: black;
+    transform: scale(1.1) rotate(0deg);
+    transition: all .5s ease-in-out 0s;
+}
+.modal-dialog {
+    margin: 30px auto;
+    width: 800px;
+}
+.rope_img {
+    height: auto;
+    position: relative;
+    left:84px;
+    top:-30px;
+
+}
+.modal-content{
+    margin-top:-30px;
+    background: rgba(0, 0, 0, 0) url("../images/texture.jpg") repeat scroll 0 0;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.4) inset;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.photo_id{
+    width:200px;
+    height:200px;
+    border-radius: 122px;
+
+}
+.coding_block h5{
+    color: red;
+}
+
+.personal_info{
+    text-align: center;
+}
+.coding_block h4,h5{
+    text-align: left;
+    font-weight:bold;
+}
+.progress-bar{
+    background-color: darkolivegreen;
+}
+.doc_block{
+    padding: 40px 0px;
+}
+
+.download_cv a {
+    background: grey url("../images/cv_icon.png") no-repeat scroll 0 50%;
+    opacity: .64;
+    color: darkslategray;
+    display: block;
+    font-size: 14px;
+    padding: 28px 0 0 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.download_cv:hover{
+    background: red url("../images/cv_icon.png") no-repeat scroll 0 50%;
+}
+.project{
+    border:1px solid transparent;
+    width:200px;
+    height:150px;
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+.project img{
+    padding: 10px;
+}
+.project img:hover{
+    opacity: .7;
+background-color: black;
+transform: scale(1.1) rotate(0deg);
+transition: all .5s ease-in-out 0s;
+}
+.project:hover{
+    
+    
+}
+.project h4{
+position: relative;
+    top:-6px;
+}
+.modal-body{
+    text-align: center;
+}
+.screen{
+    width:200px;
+    height:150px;
+}
+.address_block{
+    border:1px solid transparent;
+    text-align: left;
+}
+
+.mail_block{
+    border:1px solid transparent;
+    text-align: left;
+}
+.mail_block span{
+    font-weight:bold;
+}
+.mail_block a{
+    cursor: pointer;
+    font-weight:bold;
+
+}
+.mail_block a:hover{
+    text-decoration: none;
+}
+.hobbies_ul{
+    padding-left:0;
+}
+.hobbies_ul li{
+    display: block;
+    padding: 10px;
+    text-align: left;
+    font-weight:bold;
+}
+.my_photo{
+    width: 564px;
+    height:400px;
+}
+.munnar_block{
+    border:1px solid transparent;
+    text-align: left;
+}
+.des_block{
+
+    background-image: url(../img/Picture%20096.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    width:749px;
+    height:384px;
+}
+.des_block:hover{
+    opacity: .7;
+    background-color: black;
+    transform: scale(1) rotate(0deg);
+    transition: all .5s ease-in-out 0s;
+}
+
+.c1{
+    width:700px;
+    height:200px;
+
+}
+.para_block p{
+    text-align: left;
+}
+
+

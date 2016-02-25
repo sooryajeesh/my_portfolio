@@ -1,0 +1,192 @@
+header {
+  background-image: url("../images/rio_img.jpg");
+  -webkit-background-size: cover;
+  background-size: cover; }
+  header .heading {
+    color: white;
+    font-weight: bold; }
+    header .heading .heading_span {
+      color: darkgoldenrod;
+      font-size: 15px;
+      font-weight: bold; }
+  header .col-md-5 {
+    margin-bottom: 0px; }
+    header .col-md-5 .navbar-default {
+      margin-bottom: 0px; }
+  header .menu_part {
+    width: auto;
+    height: auto;
+    border: none; }
+    header .menu_part .navbar-header {
+      border: none;
+      background-color: olive; }
+    header .menu_part .navbar-default .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+      border: none; }
+    header .menu_part .navbar-collapse {
+      border: none;
+      background-color: orange;
+      padding-left: 0px;
+      padding-right: 0px; }
+    header .menu_part .breadcrumb {
+      background-color: orange;
+      padding: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      height: 50px;
+      box-shadow: 0px 0px 6px 10px black;
+      line-height: 8px; }
+      header .menu_part .breadcrumb li {
+        text-align: center;
+        display: inline-block; }
+      header .menu_part .breadcrumb a {
+        padding: 10px;
+        color: black;
+        font-weight: bold; }
+  header .nav > li > a:hover, header .nav > li > a:focus {
+    background-color: orange;
+    text-decoration: none;
+    color: white; }
+
+.icons_div {
+  border: 1px solid transparent;
+  height: auto;
+  text-align: center;
+  margin-top: 30px; }
+  .icons_div .sec {
+    border: 1px solid transparent;
+    height: auto;
+    text-align: center; }
+    .icons_div .sec i {
+      font-size: 90px;
+      color: orange;
+      margin-top: 30px; }
+
+.orange_section {
+  border: 1px solid transparent;
+  background-image: url("../images/Orange-Gradient.jpg");
+  height: auto;
+  text-align: center; }
+  .orange_section p {
+    margin-top: 20px;
+    text-align: left; }
+  .orange_section .my_video {
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center; }
+  .orange_section .twitter-block {
+    border: 1px solid transparent;
+    background-color: darkgoldenrod;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center; }
+    .orange_section .twitter-block .fa-twitter {
+      font-size: 223px;
+      color: orange;
+      opacity: .7; }
+    .orange_section .twitter-block .badge {
+      height: 30px;
+      text-align: center;
+      background-color: orange;
+      color: white;
+      line-height: 2;
+      border-radius: 23px;
+      display: flex;
+      cursor: pointer;
+      align-content: center;
+      justify-content: center; }
+      .orange_section .twitter-block .badge .tweets {
+        text-align: center;
+        font-weight: bold; }
+
+.wrapper .col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px; }
+.wrapper img {
+  margin-top: 10px; }
+.wrapper p {
+  margin-top: 5px;
+  padding: 20px; }
+.wrapper .heading_document {
+  margin-top: 10px;
+  padding: 10px; }
+
+footer {
+  border: 1px solid transparent;
+  height: auto;
+  text-align: center;
+  background-color: darkslategrey; }
+  footer .footer_list {
+    border: 1px solid transparent;
+    height: auto; }
+    footer .footer_list .ul-footer {
+      text-align: center;
+      display: block;
+      padding-left: 0px; }
+      footer .footer_list .ul-footer .li_footer {
+        display: block;
+        padding: 5px;
+        text-align: left; }
+        footer .footer_list .ul-footer .li_footer a {
+          color: antiquewhite;
+          font-weight: bold;
+          text-decoration: none; }
+          footer .footer_list .ul-footer .li_footer a:hover {
+            opacity: .7; }
+  footer .form-subscribe {
+    border: 1px solid red;
+    display: inline-block;
+    vertical-align: top; }
+    footer .form-subscribe input {
+      width: 300px; }
+    footer .form-subscribe h5 {
+      color: antiquewhite; }
+  footer .round_photos {
+    border: 1px solid transparent;
+    height: auto;
+    text-align: left; }
+    footer .round_photos #ul_photos {
+      text-align: center; }
+    footer .round_photos #ul_photos li {
+      display: inline-block;
+      padding: 4px; }
+      footer .round_photos #ul_photos li .img-photo {
+        width: 120px;
+        height: 120px;
+        border-radius: 59px; }
+    footer .round_photos p {
+      font-weight: bold;
+      text-align: center;
+      color: antiquewhite; }
+
+.last {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: black;
+  height: auto; }
+  .last #copy_right_span {
+    line-height: 6;
+    text-align: center; }
+  .last .social_icons {
+    height: auto;
+    border: none; }
+    .last .social_icons ul {
+      padding: 0px;
+      margin-bottom: 0px;
+      line-height: 5; }
+      .last .social_icons ul li {
+        display: inline-block;
+        padding: 10px; }
+        .last .social_icons ul li a {
+          color: darkslategrey; }
+          .last .social_icons ul li a .fa {
+            font-size: 30px; }
+            .last .social_icons ul li a .fa:hover {
+              opacity: .7; }
+
+/*# sourceMappingURL=all.css.map */

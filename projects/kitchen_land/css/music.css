@@ -1,0 +1,187 @@
+.header-logo{
+    border:1px solid transparent;
+    text-align: center;
+    color:white;
+}
+.navbar-default{
+    background-color: darkorange;
+    color:white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: darkorange;
+    color:black;
+
+}
+.navbar-default{
+    margin-bottom:0px;
+}
+.container-fluid{
+    margin-left:0px;
+    margin-right:0px;
+
+}
+.example{
+    padding-left: 0px;
+    padding-right:0px;
+}
+.navbar-default .navbar-nav li  a{
+    color:white;
+    font-size: 17px;
+    font-weight:bold;
+}
+#music_img{
+height: 350px;
+    width:100%;
+}
+.icons_part{
+    text-align: center;
+    border:1px solid transparent;
+    height:auto;
+}
+.icons_part img{
+
+}
+.icons{
+    width: 150px;
+    height: 150px;
+
+}
+.btn_view{
+    background-color: darkorange;
+    border:none;
+    font-weight:bold;
+
+}
+.icons-testimony{
+    width:150px;
+    height:150px;
+    border:3px solid darkorange;
+    border-radius:101px;
+
+}
+.boxes{
+
+    border-style:inset;
+    height:auto;
+    border-radius: 17px;
+
+}
+.testimony_position{
+     font-weight:bold;
+ }
+.testimony_name{
+    font-weight:bold;
+}
+.first_box{
+    border:1px solid red;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+.second_box{
+    border:1px solid palevioletred;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+.para_part1{
+    border:1px solid transparent;
+    height:auto;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    margin-top:20px;
+}
+.para_part1 h3{
+    color:blue;
+}
+.para_part1 p{
+
+    color:darkorange;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+}
+.para_part2{
+    border:1px solid transparent;
+    height:auto;
+    text-align: center;
+    border-radius: 30px;
+    margin-top:20px;
+    background-color: black;
+}
+.para_part2 h3{
+    color:green;
+}
+.para_part2 p{
+
+    color:darkorange;
+    padding: 0px 40px 40px 40px;
+    text-align: left;
+}
+.forms{
+    background-color: black;
+    margin-top:20px;
+}
+.registration_online{
+    border:1px solid transparent;
+    background-color: black;
+    color:darkorange;
+    border-radius: 30px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.submit_btn{
+    background-color: darkorange;
+    color: black;
+}
+.input-group span{
+    background-color: black;
+    color: darkorange;
+}
+.input-group input{
+    background-color: black;
+    color:darkorange;
+}
+.footer{
+    height:auto;
+    background-color: gray;
+    overflow: hidden;
+    text-align: center;
+}
+.copy_span{
+    display:block;
+    line-height:40px;
+}
+.social_media ul{
+    float: right;
+}
+.social_media ul li{
+    display: inline-block;
+}
+.social_media ul li a{
+    padding: 10px;
+    line-height:30px;
+   display: inline-block;
+}
+.social_media ul li a i{
+    font-size:20px;
+    color: darkgray;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: deepskyblue;
+}
+.fa-google-plus:hover{
+    color: red;
+}
+.fa-envelope:hover{
+    color: darkred;
+}
+.fa-linkedin:hover{
+    color: darkorange;
+}
+
+
