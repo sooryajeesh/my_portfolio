@@ -102,7 +102,7 @@ body{
     left:36px;
 }
 #photo_ul{
-    border:1px solid green;
+    border:1px solid transparent;
     height:auto;
     text-align: center;
     padding-left:0;
@@ -162,6 +162,7 @@ body{
 }
 .doc_block{
     padding: 40px 0px;
+    text-align: left;
 }
 
 .download_cv a {
@@ -251,7 +252,7 @@ position: relative;
 }
 .des_block{
 
-    background-image: url(../img/Picture%20096.jpg);
+
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
@@ -263,6 +264,14 @@ position: relative;
     background-color: black;
     transform: scale(1) rotate(0deg);
     transition: all .5s ease-in-out 0s;
+}
+.des_block .carousel-inner {
+    width:749px;
+    height:384px;
+}
+.des_block .carousel-inner img{
+    width:749px;
+    height:384px;
 }
 
 .c1{
