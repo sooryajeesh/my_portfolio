@@ -1,0 +1,331 @@
+.navbar-default{
+  margin-bottom: 0px;
+    background-color:transparent;
+    border:none;
+    padding:20px;
+}
+
+.navbar-right .sign_up_btn{
+    background-color:#3b5998;
+    color: white;
+    font-weight:bold;
+    border-radius: 6px;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight:bold;
+}
+.navbar-default .navbar-nav > li > a :focus,.navbar-default .navbar-nav > li > a:hover{
+    cursor: pointer;
+    color: white;
+}
+.navbar-default .navbar-nav > li > .sign_up_btn :focus,.navbar-default .navbar-nav > li > .sign_up_btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #3b5998;
+}
+ .first_section{
+    background-image: url("../images/banner_img.png");
+    min-height: 600px;
+     background-size: cover;
+ }
+.content_block{
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+.content_block input{
+    color: grey;
+    height: 33px;
+}
+.btn-arrow{
+    height: 33px;
+    font-weight:bold;
+    padding: 4px 12px;
+}
+.btn-arrow i{
+    padding: 5px;
+}
+input:-moz-placeholder{
+    text-align: right;
+}
+
+.second_section{
+    min-height: 300px;
+}
+.para_block{
+   padding-top: 35px;
+}
+
+.para_block h5{
+    text-align: center;
+
+}
+.logo_series_block{
+    border:1px solid transparent;
+
+
+}
+
+.logos_ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.logos_ul li img{
+    width: 100px;
+
+
+}
+.btn_help{
+    background-color: black;
+    border:none;
+    position: relative;
+    top:-25px;
+    box-shadow: 0 0 4px  black;
+}
+.btn_help:hover{
+    text-decoration: none;
+    background-color: black;
+    color: #3b5998;
+}
+.btn_help i{
+    padding: 10px;
+    
+}
+.third_section{
+    min-height: 300px;
+}
+.third_section .col-md-6{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.upper .man{
+   width:618px;
+    height:250px;
+}
+.right{
+    background-color: #43b5db;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding: 32px;
+
+}
+.right h3{
+    font-weight:bold;
+}
+.lower .man{
+    width:618px;
+    height:250px;
+}
+.left {
+    background-color: #43b5db;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding: 32px;
+
+}
+
+.left h3{
+    font-weight:bold;
+}
+.fourth_section{
+    min-height: 300px;
+}
+.review_block h3{
+    padding-top:10px;
+
+}
+.review_hr{
+    width:60px;
+    border:1px solid gainsboro;
+}
+.review_block p{
+    text-align: center;
+    font-weight:100;
+}
+.photo_block ul{
+    text-align: center;
+}
+.photo_block ul li{
+    display: inline-block;
+    padding: 40px;
+
+}
+
+.photo_block ul li img{
+    border-radius: 69px;
+    opacity: .5;
+    width:69px;
+    height:69px;
+
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    background-color: #43b5db;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    top:-20px;
+    left:23px;
+    opacity: 0;
+}
+.circle i{
+    color: white;
+    line-height:2;
+}
+.name_slip{
+    border:1px solid transparent;
+    width:160px;
+    height:auto;
+    opacity: 0;
+}
+.photo_block ul li img:hover{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    width:99px;
+    height:99px;
+    border-radius: 69px;
+
+}
+.photo_block ul li img:hover +.circle + .name_slip{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    visibility: visible;
+}
+
+.fifth_section .col-md-6{
+    padding-left:0px;
+    padding-right:0px;
+}
+.fifth_section{
+    min-height: 350px;
+}
+.sixth_section{
+    min-height: 100px;
+}
+.add_block{
+    padding-top:20px;
+}
+.add_block ul{
+    text-align: center;
+}
+.add_block ul li{
+    display: inline-block;
+    padding: 11px;
+}
+.add_block ul li a img{
+    width: 120px;
+    height: 40px;
+}
+.add_block ul span{
+    color: gray;
+    font-weight:bold;
+
+}
+.seventh_section{
+    min-height: 60px;
+    background-color:#43b5db;
+}
+.ellipse{
+    width:50px;
+    height:50px;
+    border-radius: 40px;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+    margin: 20px;
+    line-height:50px;
+}
+
+.contact_block .col-md-4  span{
+    text-align: center;
+    color: white;
+    position: relative;
+    top:-52px;
+}
+.ellipse_icon img{
+    margin:20px;
+}
+.ellipse i{
+    font-size:30px;
+    padding-top:9px;
+}
+.eighth_section{
+    min-height: 300px;
+    color: white;
+    background-color: #3b3b3b;
+}
+.footer{
+    padding-top:30px;
+}
+.footer .col-md-2 ul li{
+    display: block;
+    padding: 5px;
+
+}
+.footer .col-md-2 ul{
+    padding-left:0px;
+}
+.footer .col-md-2 ul li a{
+    color: grey;
+    font-size:12px;
+
+}
+.footer .col-md-2 .social_block{
+    text-align: center;
+}
+.footer .col-md-2 .social_block li{
+    border-radius: 30px;
+    width:30px;
+    height:30px;
+    background-color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+.footer .col-md-2 .social_block li a{
+    color: gainsboro;
+}
+
+
+.last_section{
+    min-height: 70px;
+    background-color: #2f2f2f;
+    text-align: center;
+
+}
+.last_section a{
+    padding: 20px;
+    color: grey;
+    font-size:14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 360px){
+    .content_block input{
+        color: grey;
+        height: 43px;
+        width: 250px;
+        padding: 3px;
+        margin: 5px;
+    }
+    .btn-arrow{
+        height: 33px;
+        margin: 5px;
+        font-weight:bold;
+    }
+}
